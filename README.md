@@ -12,11 +12,11 @@ Clone the package and copy the folder into your mne current folder:
 
 only with this line:
 
-from mne.io.mff import read_egi_mff
+# from mne.io.mff import read_egi_mff
 
 and for create the raw instance:
 
-raw = read_egi_mff(filepath, exclude, include, verbose)
+# raw = read_egi_mff(filepath, exclude, include, verbose)
 
 All the pararameters are the same than for the read_raw_egi.
 
