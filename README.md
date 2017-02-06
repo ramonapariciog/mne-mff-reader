@@ -2,13 +2,13 @@
 
 MNE Class and functions for loading the EGI '.mff' files from Geodesyc EEG. 
 
-Install
+# Install
 
 Clone the package and copy the folder into your mne current folder:
 
 .../mne/io/
 
-How to import
+# How to import
 
 only with this line:
 
@@ -21,8 +21,10 @@ raw = read_egi_mff(filepath, exclude, include, verbose)
 All the pararameters are the same than for the read_raw_egi.
 
 
-Limitations:
+# Limitations:
 
 1.- At this moment doesn't support multisubject records, but can be adapted for that.
+
 2.- At the moment has been tested by comparing the results with the obtained by a single subject and notsegmented record raw file.
+
 3.- At the moment all data is loaded to memory, using the preload=True mode.
