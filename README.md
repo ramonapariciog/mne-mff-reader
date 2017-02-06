@@ -28,3 +28,6 @@ All the pararameters are the same than for the read_raw_egi.
 2.- At the moment has been tested by comparing the results with the obtained by a single subject and notsegmented record raw file.
 
 3.- At the moment all data is loaded to memory, using the preload=True mode.
+
+
+# Thanks to PhD. Guillaume Dumas, PhD. Dennis A. Engeman & PhD. Sheraz Khan
