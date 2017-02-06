@@ -1,6 +1,6 @@
 # mne-mff-reader  BETA
 
-MNE Class and functions for loading the EGI '.mff' files from Geodesyc EEG. 
+MNE Class and functions for loading the EGI '.mff' files from EGI Netstation EEG. 
 
 # Install
 
